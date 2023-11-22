@@ -6,14 +6,14 @@ This code is designed to show how a video coding algorithm is implemented from t
 
 The basic Process is:
 
--- Feed in video sequence
--- Perform motion compensation
--- Take DCT of frame
--- Quantize frame
--- Encode and save to file (Optional and unfinished)
--- Inverse Quantize frame
--- Take IDCT of frame
--- Perform motion compensation on reconstructed frame
+- Feed in video sequence
+- Perform motion compensation
+- Take DCT of frame
+- Quantize frame
+- Encode and save to file (Optional and unfinished)
+- Inverse Quantize frame
+- Take IDCT of frame
+- Perform motion compensation on reconstructed frame
 
 Done! You will have ruined a perfectly good video...
 
